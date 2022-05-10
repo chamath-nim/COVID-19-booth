@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="497.0" prefWidth="750.0" style="-fx-border-color: #0066ff; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Receipt">
+   <children>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="29.0" prefHeight="50.0" prefWidth="286.0" text="Patient's Details">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="99.0" prefHeight="30.0" prefWidth="124.0" text="Patient's Name :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="137.0" prefHeight="30.0" prefWidth="124.0" text="Patient's Age :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="174.0" prefHeight="30.0" prefWidth="124.0" text="Patient's City :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="216.0" prefHeight="30.0" prefWidth="253.0" text="Patient's NIC or Passport Number :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="252.0" prefHeight="30.0" prefWidth="151.0" text="Requested Vaccine :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="290.0" prefHeight="30.0" prefWidth="151.0" text="Booth Number :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="enclose" layoutX="568.0" layoutY="432.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="124.0" style="-fx-background-color: #0066ff; -fx-background-radius: 15px;" text="Close" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="l1" layoutX="205.0" layoutY="99.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label fx:id="l2" layoutX="205.0" layoutY="137.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label fx:id="l3" layoutX="205.0" layoutY="174.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label fx:id="l4" layoutX="340.0" layoutY="216.0" prefHeight="30.0" prefWidth="266.0" />
+      <Label fx:id="l5" layoutX="238.0" layoutY="252.0" prefHeight="30.0" prefWidth="266.0" />
+      <Label fx:id="l6" layoutX="212.0" layoutY="290.0" prefHeight="30.0" prefWidth="266.0" />
+      <Label layoutX="61.0" layoutY="330.0" prefHeight="30.0" prefWidth="61.0" text="Date :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="l7" layoutX="167.0" layoutY="330.0" prefHeight="30.0" prefWidth="266.0" />
+      <Label layoutX="61.0" layoutY="366.0" prefHeight="30.0" prefWidth="61.0" text="Time :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="l8" layoutX="167.0" layoutY="366.0" prefHeight="30.0" prefWidth="266.0" />
+   </children>
+</AnchorPane>
